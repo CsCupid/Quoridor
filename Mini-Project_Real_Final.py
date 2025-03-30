@@ -1368,10 +1368,7 @@ class Quoridor :
                 pyxel.rectb(-31+self.wall_x*38,0+self.wall_y*38,69,7,13)
                 pyxel.rectb(-30+self.wall_x*38,1+self.wall_y*38,67,5,13)
                 self.cross__wall_draw(3+self.wall_x*38,3+self.wall_y*38)
-    
-      #pyxel.text(100,100,str(self.wall_list_tent[4]),0)
-      #pyxel.text(100,110,str(self.wall_list[4]),0)
-      #デバッグ用
+
 
 
 Quoridor()
